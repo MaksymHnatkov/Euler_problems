@@ -1,10 +1,12 @@
+# Euler problem 16:
+
 b = 2**1000
 a = list(str(b))
-sum1 = 0
+sum = 0
 for i in a:
     i = int(i)
-    sum1 = sum1 + i
+    sum += i
 
-print(sum1)
+print(sum)
 
 
