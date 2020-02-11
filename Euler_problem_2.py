@@ -13,7 +13,7 @@ while (i + s) < 4000000:
 total_sum = 0
 for i in a:
     if i % 2 == 0:
-        total_sum = total_sum + i
+        total_sum += i
 
 
 print(total_sum)
