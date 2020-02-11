@@ -1,3 +1,5 @@
+# Euler problem 3:
+
 def simpleDividers(n):
    answer = []
    d = 2
@@ -11,11 +13,4 @@ def simpleDividers(n):
        answer.append(n)
    return answer
 
-print(simpleDividers(13195))              # [5, 7, 13, 29]
-
-print(simpleDividers(600851475143))       # [71, 839, 1471, 6857]
-
-print(max(simpleDividers(600851475143)))  # 6857
-
-print(simpleDividers(6857))               # [6857]
-        
+print(max(simpleDividers(600851475143)))
