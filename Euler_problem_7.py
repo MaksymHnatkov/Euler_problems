@@ -1,6 +1,6 @@
 # Euler problem 7:
 
-n = 10
+n = 10001
 x = 2
 lst = []
 while (len(lst) < n):
