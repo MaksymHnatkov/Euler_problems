@@ -1,20 +1,16 @@
-# Euler problem 7: NO SOLUTION YET!!!!!!
+# Euler problem 7:
 
-list1 = []
-a = 2
+def primes():
+    n = 10001
+    x = 2
+    lst = []
+    while (len(lst) < n):
+        if all(x % i for i in lst):
+            lst.append(x)
+        x += 1
+    print(lst[-1])
 
-while len(list1) != 30:
-    k = 0
-    for i in range(1,a):
-        if a % i == 0:
-            k += 1
-            if k > 1:
-                a += 1
-            else:
-                list1.append(a)
-                a += 1
-
-print(list1)
+primes()
 
 
 
